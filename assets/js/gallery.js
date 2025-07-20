@@ -62,25 +62,27 @@ function setFilterOption(listOption, select) {
 }
 
 function filterImages(activeFilters, imageData) {
-  const allImages = getAllImages(imageData)
+  const allImages = getAllImages(imageData);
   const author = activeFilters.author;
   const category = activeFilters.category;
   const search = activeFilters.search;
 
   let filtered = allImages;
-  if (author) {
-    filtered = allImages.filter((image) => {
-      return image.author === author;
-    });
-  }
 
   if (category) {
-    const categoryData = findCategory(imageData, category)
-    // se valida que categorydata sea un valor truthy, es decir que tenga un valor asignado 
+    const categoryData = findCategory(imageData, category);
+    // se valida que categorydata sea un valor truthy, es decir que tenga un valor asignado
     if (categoryData) {
       filtered = categoryData.images
     }
   }
+
+  if (author) {
+    filtered = filtered.filter((image) => {
+      return image.author === author;
+    });
+  }
+
   return filtered;
 }
 
@@ -125,9 +127,8 @@ selectAuthor.addEventListener("change", (event) => {
   listImgContainer.innerHTML = cardImagesHtml;
 });
 
-
 selectCategory.addEventListener("change", (event) => {
-   activeFilters.category = event.target.value;
+  activeFilters.category = event.target.value;
   const filtered = filterImages(activeFilters, imagesData);
   // asignado valor que devuelve la funcion a la constante
   const cardImagesHtml = renderCardImages(filtered);
