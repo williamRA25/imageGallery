@@ -65,15 +65,27 @@ function filterImages(activeFilters, imageData) {
   const allImages = getAllImages(imageData);
   const author = activeFilters.author;
   const category = activeFilters.category;
-  const search = activeFilters.search;
+  const search = activeFilters.search.toLowerCase();
 
   let filtered = allImages;
+
+  if (search) {
+    return allImages.filter((image)=>{
+      const authorLower = image.author.toLowerCase()
+      const descriptionLower = image.description.toLowerCase()
+      const categoryNameLower = image.categoryName.toLowerCase()
+      // return image.author.toLowerCase().startsWith(search)
+      return authorLower.startsWith(search) || 
+            descriptionLower.startsWith(search) ||
+            categoryNameLower.startsWith(search)
+    })
+  }
 
   if (category) {
     const categoryData = findCategory(imageData, category);
     // se valida que categorydata sea un valor truthy, es decir que tenga un valor asignado
     if (categoryData) {
-      filtered = categoryData.images
+      filtered = categoryData.images;
     }
   }
 
@@ -84,6 +96,15 @@ function filterImages(activeFilters, imageData) {
   }
 
   return filtered;
+}
+
+function updateGallery(activeFilters, imagesData) {
+  const filtered = filterImages(activeFilters, imagesData);
+  // asignado valor que devuelve la funcion a la constante
+  const cardImagesHtml = renderCardImages(filtered);
+
+  // asignar el html al elemento obtenido con la funcion getElementById
+  listImgContainer.innerHTML = cardImagesHtml;
 }
 
 const queryString = window.location.search;
@@ -114,25 +135,24 @@ const categories = getCategories(imagesData);
 const selectAuthor = document.getElementById("author-filter");
 const selectCategory = document.getElementById("category-filter");
 
+const searchInput = document.getElementById("search-input");
+
 setFilterOption(authors, selectAuthor);
 setFilterOption(categories, selectCategory);
 
 selectAuthor.addEventListener("change", (event) => {
   activeFilters.author = event.target.value;
-  const filtered = filterImages(activeFilters, imagesData);
-  // asignado valor que devuelve la funcion a la constante
-  const cardImagesHtml = renderCardImages(filtered);
-
-  // asignar el html al elemento obtenido con la funcion getElementById
-  listImgContainer.innerHTML = cardImagesHtml;
+  updateGallery(activeFilters, imagesData);
 });
 
 selectCategory.addEventListener("change", (event) => {
   activeFilters.category = event.target.value;
-  const filtered = filterImages(activeFilters, imagesData);
-  // asignado valor que devuelve la funcion a la constante
-  const cardImagesHtml = renderCardImages(filtered);
+  updateGallery(activeFilters, imagesData);
+});
 
-  // asignar el html al elemento obtenido con la funcion getElementById
-  listImgContainer.innerHTML = cardImagesHtml;
+searchInput.addEventListener("input", (event) => {
+  activeFilters.search = event.target.value;
+  activeFilters.author = ""
+  activeFilters.category = ""
+  updateGallery(activeFilters, imagesData);
 });
