@@ -11,6 +11,8 @@ const imagesData = [
         description: "a drawing of a man with a beard on a piece of paper",
         author: "Elina Emurlaeva",
         featured: false,
+        categoryName: "Arte",
+        categorySlug: "art",
       },
       {
         id: "qpNEZcRMzeI",
@@ -18,6 +20,8 @@ const imagesData = [
         description: "a close up of a street sign with a sky background",
         author: "Arno Senoner",
         featured: true,
+        categoryName: "Arte",
+        categorySlug: "art",
       },
       {
         id: "53MmuGcadvg",
@@ -25,6 +29,8 @@ const imagesData = [
         description: "water droplets on body of water",
         author: "Rafael Garcin",
         featured: false,
+        categoryName: "Arte",
+        categorySlug: "art",
       },
       {
         id: "wtnVtQnsdKk",
@@ -32,6 +38,8 @@ const imagesData = [
         description: "an abstract painting with pink, green, and white colors",
         author: "Roma Kaiuk🇺🇦",
         featured: false,
+        categoryName: "Arte",
+        categorySlug: "art",
       },
       {
         id: "DeTA7JaCYF8",
@@ -39,6 +47,8 @@ const imagesData = [
         description: "a diagram of a train that is on a wall",
         author: "Tasha Kostyuk",
         featured: false,
+        categoryName: "Arte",
+        categorySlug: "art",
       },
       {
         id: "3xLO7pPsKKI",
@@ -47,6 +57,8 @@ const imagesData = [
           "A painting of a bird on a red, yellow, and blue background",
         author: "Fons Heijnsbroek",
         featured: false,
+        categoryName: "Arte",
+        categorySlug: "art",
       },
       {
         id: "TUPWH8nsOLU",
@@ -54,6 +66,8 @@ const imagesData = [
         description: "woman in beige and brown floral dress",
         author: "Europeana",
         featured: false,
+        categoryName: "Arte",
+        categorySlug: "art",
       },
       {
         id: "6OKOyRwBsng",
@@ -61,6 +75,8 @@ const imagesData = [
         description: "people in front of red and beige wall",
         author: "McGill Library",
         featured: false,
+        categoryName: "Arte",
+        categorySlug: "art",
       },
       {
         id: "cw9zezP-11k",
@@ -68,6 +84,8 @@ const imagesData = [
         description: "A couple of people that are standing in front of a wall",
         author: "Felix Ngo",
         featured: false,
+        categoryName: "Arte",
+        categorySlug: "art",
       },
       {
         id: "sjoj2UxeTI4",
@@ -75,6 +93,8 @@ const imagesData = [
         description: "A woman sings into a microphone.",
         author: "Europeana",
         featured: false,
+        categoryName: "Arte",
+        categorySlug: "art",
       },
       {
         id: "1qZS72ANFBc",
@@ -82,6 +102,8 @@ const imagesData = [
         description: "purple and black graffiti on wall",
         author: "Maria Malone",
         featured: false,
+        categoryName: "Arte",
+        categorySlug: "art",
       },
       {
         id: "FqxeuKPQ57A",
@@ -89,6 +111,8 @@ const imagesData = [
         description: "A comic strip with an image of a man riding a horse",
         author: "JOE Planas",
         featured: false,
+        categoryName: "Arte",
+        categorySlug: "art",
       },
       {
         id: "idbBOa-MQ-I",
@@ -96,6 +120,8 @@ const imagesData = [
         description: "white and black cat sketch",
         author: "visuals",
         featured: false,
+        categoryName: "Arte",
+        categorySlug: "art",
       },
       {
         id: "97nQ2s2FtPE",
@@ -103,6 +129,8 @@ const imagesData = [
         description: "a black and white photo of an old building",
         author: "The Cleveland Museum of Art",
         featured: false,
+        categoryName: "Arte",
+        categorySlug: "art",
       },
       {
         id: "dPsA7KMcNvs",
@@ -110,6 +138,8 @@ const imagesData = [
         description: "a painting of two women reading a book",
         author: "The Cleveland Museum of Art",
         featured: false,
+        categoryName: "Arte",
+        categorySlug: "art",
       },
       {
         id: "dszWlc8m3io",
@@ -117,6 +147,8 @@ const imagesData = [
         description: "a painting of a group of people near a body of water",
         author: "The Cleveland Museum of Art",
         featured: true,
+        categoryName: "Arte",
+        categorySlug: "art",
       },
     ],
   },
@@ -132,6 +164,8 @@ const imagesData = [
         description: "A small cabin in the middle of a forest",
         author: "Jisca Lucia",
         featured: false,
+        categoryName: "Bosque",
+        categorySlug: "forest",
       },
       {
         id: "-sidLcag5lo",
@@ -139,6 +173,8 @@ const imagesData = [
         description: "The sun is shining through the trees in the forest",
         author: "Jisca Lucia",
         featured: false,
+        categoryName: "Bosque",
+        categorySlug: "forest",
       },
       {
         id: "CRFqapQ0P0U",
@@ -146,6 +182,8 @@ const imagesData = [
         description: "a forest filled with lots of tall pine trees",
         author: "Lianhao Qu",
         featured: false,
+        categoryName: "Bosque",
+        categorySlug: "forest",
       },
       {
         id: "zUukTDwQpLs",
@@ -153,6 +191,8 @@ const imagesData = [
         description: "a lush green forest filled with lots of trees",
         author: "Eugenia Pankiv",
         featured: false,
+        categoryName: "Bosque",
+        categorySlug: "forest",
       },
       {
         id: "I9m0cmKyVfg",
@@ -160,6 +200,8 @@ const imagesData = [
         description: "bamboo trees",
         author: "Alex Azabache",
         featured: true,
+        categoryName: "Bosque",
+        categorySlug: "forest",
       },
       {
         id: "1LPirOv6EM8",
@@ -167,6 +209,8 @@ const imagesData = [
         description: "a lush green forest filled with lots of trees",
         author: "Greg Rosenke",
         featured: true,
+        categoryName: "Bosque",
+        categorySlug: "forest",
       },
       {
         id: "pBpIYmktcGg",
@@ -174,6 +218,8 @@ const imagesData = [
         description: "a path in the middle of a lush green forest",
         author: "Chris Andrawes",
         featured: false,
+        categoryName: "Bosque",
+        categorySlug: "forest",
       },
       {
         id: "MreC0q5lZaM",
@@ -181,6 +227,8 @@ const imagesData = [
         description: "a dirt road surrounded by lots of trees",
         author: "Sanika V",
         featured: false,
+        categoryName: "Bosque",
+        categorySlug: "forest",
       },
       {
         id: "6BaHzM7S7jI",
@@ -188,6 +236,8 @@ const imagesData = [
         description: "a lush green forest filled with lots of trees",
         author: "Phill Dane",
         featured: false,
+        categoryName: "Bosque",
+        categorySlug: "forest",
       },
       {
         id: "R-ALakgBTwA",
@@ -195,6 +245,8 @@ const imagesData = [
         description: "a view of a mountain range with trees in the foreground",
         author: "Jisca Lucia",
         featured: false,
+        categoryName: "Bosque",
+        categorySlug: "forest",
       },
       {
         id: "0rfa7QK10Gc",
@@ -202,6 +254,8 @@ const imagesData = [
         description: "a dirt road surrounded by trees and grass",
         author: "Isaac Mitchell",
         featured: false,
+        categoryName: "Bosque",
+        categorySlug: "forest",
       },
       {
         id: "9UjEyzA6pP4",
@@ -209,6 +263,8 @@ const imagesData = [
         description: "pathway between green trees during daytime",
         author: "Tim Mossholder",
         featured: false,
+        categoryName: "Bosque",
+        categorySlug: "forest",
       },
       {
         id: "0xFU1sL85jQ",
@@ -216,6 +272,8 @@ const imagesData = [
         description: "a stream in a forest",
         author: "Jason Leung",
         featured: false,
+        categoryName: "Bosque",
+        categorySlug: "forest",
       },
       {
         id: "TjtO8LPO1ME",
@@ -224,6 +282,8 @@ const imagesData = [
           "a truck driving down a road next to a lush green hillside",
         author: "Mos Sukjaroenkraisri",
         featured: false,
+        categoryName: "Bosque",
+        categorySlug: "forest",
       },
       {
         id: "mcXCtvz1YYY",
@@ -231,6 +291,8 @@ const imagesData = [
         description: "a scenic view of a road surrounded by trees",
         author: "Mos Sukjaroenkraisri",
         featured: false,
+        categoryName: "Bosque",
+        categorySlug: "forest",
       },
       {
         id: "788qr2kO4tQ",
@@ -238,6 +300,8 @@ const imagesData = [
         description: "a dirt path in the middle of a forest",
         author: "Ryunosuke Kikuno",
         featured: false,
+        categoryName: "Bosque",
+        categorySlug: "forest",
       },
       {
         id: "PkDBj80QXIY",
@@ -245,6 +309,8 @@ const imagesData = [
         description: "a dirt road in the middle of a forest",
         author: "Wolfgang Hasselmann",
         featured: false,
+        categoryName: "Bosque",
+        categorySlug: "forest",
       },
       {
         id: "CAhDH3CeBqc",
@@ -252,6 +318,8 @@ const imagesData = [
         description: "a dirt road surrounded by trees and leaves",
         author: "Victor G",
         featured: false,
+        categoryName: "Bosque",
+        categorySlug: "forest",
       },
       {
         id: "H49xkByXNtg",
@@ -259,6 +327,8 @@ const imagesData = [
         description: "a path in the middle of a forest with lots of trees",
         author: "Piermanuele Sberni",
         featured: false,
+        categoryName: "Bosque",
+        categorySlug: "forest",
       },
       {
         id: "n8Ew_QKS88o",
@@ -266,6 +336,8 @@ const imagesData = [
         description: "a river with trees and rocks",
         author: "Duminda Perera",
         featured: false,
+        categoryName: "Bosque",
+        categorySlug: "forest",
       },
     ],
   },
@@ -281,6 +353,8 @@ const imagesData = [
         description: "person burning newspaper page",
         author: "Jeremy Bishop",
         featured: false,
+        categoryName: "Fuego",
+        categorySlug: "fire",
       },
       {
         id: "UBpM_NPeYTw",
@@ -288,6 +362,8 @@ const imagesData = [
         description: "blue smoke clip art",
         author: "Damon Lam",
         featured: false,
+        categoryName: "Fuego",
+        categorySlug: "fire",
       },
       {
         id: "8NHL3OI5eWc",
@@ -295,6 +371,8 @@ const imagesData = [
         description: "pink smoke",
         author: "Austin Chan",
         featured: true,
+        categoryName: "Fuego",
+        categorySlug: "fire",
       },
       {
         id: "0M5URHZ_f3k",
@@ -302,6 +380,8 @@ const imagesData = [
         description: "pink and red smoke digital wallpaper",
         author: "CHUTTERSNAP",
         featured: false,
+        categoryName: "Fuego",
+        categorySlug: "fire",
       },
       {
         id: "gaXuFx8cPWo",
@@ -309,6 +389,8 @@ const imagesData = [
         description: "man blowing fire",
         author: "Mohamed Nohassi",
         featured: true,
+        categoryName: "Fuego",
+        categorySlug: "fire",
       },
       {
         id: "8ji8tBM824U",
@@ -316,6 +398,8 @@ const imagesData = [
         description: "photo of glass vase molding",
         author: "Quino Al",
         featured: false,
+        categoryName: "Fuego",
+        categorySlug: "fire",
       },
       {
         id: "OUQfQRL2GJY",
@@ -323,6 +407,8 @@ const imagesData = [
         description: "person holding and testing test tube",
         author: "Quino Al",
         featured: false,
+        categoryName: "Fuego",
+        categorySlug: "fire",
       },
       {
         id: "_btTS32Zzu4",
@@ -330,6 +416,8 @@ const imagesData = [
         description: "shallow focus photo of burning glass bottle",
         author: "Kym MacKinnon",
         featured: false,
+        categoryName: "Fuego",
+        categorySlug: "fire",
       },
       {
         id: "8nMjIn195p0",
@@ -337,6 +425,8 @@ const imagesData = [
         description: "photo of yellow thread",
         author: "CHUTTERSNAP",
         featured: false,
+        categoryName: "Fuego",
+        categorySlug: "fire",
       },
       {
         id: "C2a4RGapd8s",
@@ -344,6 +434,8 @@ const imagesData = [
         description: "timelapse photography of person fire dancing",
         author: "Peter John Maridable",
         featured: false,
+        categoryName: "Fuego",
+        categorySlug: "fire",
       },
       {
         id: "ZsgPd6ovNag",
@@ -351,6 +443,8 @@ const imagesData = [
         description: "shallow focus photography of lighted matchstick",
         author: "Devin Avery",
         featured: false,
+        categoryName: "Fuego",
+        categorySlug: "fire",
       },
       {
         id: "80Zvfib02-s",
@@ -358,6 +452,8 @@ const imagesData = [
         description: "close-up photography of ember",
         author: "Roman Purtov",
         featured: false,
+        categoryName: "Fuego",
+        categorySlug: "fire",
       },
       {
         id: "DUXACn8tgp4",
@@ -365,6 +461,8 @@ const imagesData = [
         description: "bonfire",
         author: "Toa Heftiba",
         featured: false,
+        categoryName: "Fuego",
+        categorySlug: "fire",
       },
       {
         id: "-98jVaVuGv0",
@@ -372,6 +470,8 @@ const imagesData = [
         description: "bonfire",
         author: "Ricardo Gomez Angel",
         featured: false,
+        categoryName: "Fuego",
+        categorySlug: "fire",
       },
       {
         id: "jEXR62jw34Y",
@@ -379,6 +479,8 @@ const imagesData = [
         description: "burning charcoals",
         author: "Armando Ascorve Morales",
         featured: false,
+        categoryName: "Fuego",
+        categorySlug: "fire",
       },
       {
         id: "wex6V5PQuVM",
@@ -386,6 +488,8 @@ const imagesData = [
         description: "burning structure",
         author: "Zoltan Tasi",
         featured: false,
+        categoryName: "Fuego",
+        categorySlug: "fire",
       },
       {
         id: "4fMYlL8EMRI",
@@ -393,6 +497,8 @@ const imagesData = [
         description: "burning firewood",
         author: "Connor Jalbert",
         featured: false,
+        categoryName: "Fuego",
+        categorySlug: "fire",
       },
       {
         id: "Wp-qPtEZ-AM",
@@ -400,6 +506,8 @@ const imagesData = [
         description: "flame digital wallpaper",
         author: "David von Diemar",
         featured: false,
+        categoryName: "Fuego",
+        categorySlug: "fire",
       },
       {
         id: "srNcHlthiyI",
@@ -407,6 +515,8 @@ const imagesData = [
         description: "people standing infront of bonfire",
         author: "Drew Farwell",
         featured: false,
+        categoryName: "Fuego",
+        categorySlug: "fire",
       },
       {
         id: "hYboSFEr6Qk",
@@ -414,12 +524,13 @@ const imagesData = [
         description: "burning wood",
         author: "Drew Farwell",
         featured: false,
+        categoryName: "Fuego",
+        categorySlug: "fire",
       },
     ],
   },
-
   {
-    slug: "videoGames",
+    slug: "videogames",
     category: "Videojuegos",
     description: "Descubre la belleza de los videojuegos",
     cover: "./assets/img/videogames.jpg",
@@ -431,6 +542,8 @@ const imagesData = [
           "A pair of nintendo wii controllers sitting on top of a table",
         author: "Nicolas Martin",
         featured: false,
+        categoryName: "Videojuegos",
+        categorySlug: "videogames",
       },
       {
         id: "JmUl_t_v3dw",
@@ -438,6 +551,8 @@ const imagesData = [
         description: "gray Sony PlayStation console with corded controller",
         author: "Nikita Kostrykin",
         featured: false,
+        categoryName: "Videojuegos",
+        categorySlug: "videogames",
       },
       {
         id: "qSfaRPorpxk",
@@ -445,6 +560,8 @@ const imagesData = [
         description: "a shelf filled with lots of different types of items",
         author: "Evgeniy Smersh",
         featured: false,
+        categoryName: "Videojuegos",
+        categorySlug: "videogames",
       },
       {
         id: "E1ZWQdhHO1w",
@@ -452,6 +569,8 @@ const imagesData = [
         description: "a white rectangular object with a screen",
         author: "Melvin Lauber",
         featured: false,
+        categoryName: "Videojuegos",
+        categorySlug: "videogames",
       },
       {
         id: "QstVhKiQndg",
@@ -459,6 +578,8 @@ const imagesData = [
         description: "six handheld game consoles",
         author: "Andrew M",
         featured: false,
+        categoryName: "Videojuegos",
+        categorySlug: "videogames",
       },
       {
         id: "-l4UCK06uNM",
@@ -466,6 +587,8 @@ const imagesData = [
         description: "NES console beside wall",
         author: "Wesley Tingey",
         featured: false,
+        categoryName: "Videojuegos",
+        categorySlug: "videogames",
       },
       {
         id: "qT49sQBB4K4",
@@ -474,6 +597,8 @@ const imagesData = [
           "a group of video game controllers sitting on top of a wooden floor",
         author: "Denise Jans",
         featured: true,
+        categoryName: "Videojuegos",
+        categorySlug: "videogames",
       },
       {
         id: "mDpXMH5ntRo",
@@ -482,6 +607,8 @@ const imagesData = [
           "a nintendo wii game system sitting on top of a wooden table",
         author: "Denise Jans",
         featured: false,
+        categoryName: "Videojuegos",
+        categorySlug: "videogames",
       },
       {
         id: "5GEpwmM9H3w",
@@ -489,6 +616,8 @@ const imagesData = [
         description: "yellow and white dice with numbers",
         author: "Nika Benedictova",
         featured: false,
+        categoryName: "Videojuegos",
+        categorySlug: "videogames",
       },
       {
         id: "gSstgCAgd3U",
@@ -496,6 +625,8 @@ const imagesData = [
         description: "white sony ps 4 game controller",
         author: "Enrique Guzmán Egas",
         featured: false,
+        categoryName: "Videojuegos",
+        categorySlug: "videogames",
       },
       {
         id: "DtTpaWveIHE",
@@ -503,6 +634,8 @@ const imagesData = [
         description: "A bunch of video games sitting on top of a table",
         author: "Evgeniy Smersh",
         featured: false,
+        categoryName: "Videojuegos",
+        categorySlug: "videogames",
       },
       {
         id: "l1JfuvWd7rU",
@@ -510,6 +643,8 @@ const imagesData = [
         description: "black sony digital device on black surface",
         author: "Ben Griffiths",
         featured: false,
+        categoryName: "Videojuegos",
+        categorySlug: "videogames",
       },
       {
         id: "ads33nL7V4k",
@@ -517,6 +652,8 @@ const imagesData = [
         description: "white playstation five console and controller",
         author: "Nik",
         featured: false,
+        categoryName: "Videojuegos",
+        categorySlug: "videogames",
       },
       {
         id: "uL2GG5sODuM",
@@ -524,6 +661,8 @@ const imagesData = [
         description: "gray sony ps 4 controller",
         author: "CARTIST",
         featured: false,
+        categoryName: "Videojuegos",
+        categorySlug: "videogames",
       },
       {
         id: "bkif6g7i28Y",
@@ -531,6 +670,8 @@ const imagesData = [
         description: "purple and gray electronic device",
         author: "Taylor R",
         featured: false,
+        categoryName: "Videojuegos",
+        categorySlug: "videogames",
       },
       {
         id: "PJEyTCV1aFs",
@@ -538,6 +679,8 @@ const imagesData = [
         description: "white and gray remote control",
         author: "Ravi Palwe",
         featured: false,
+        categoryName: "Videojuegos",
+        categorySlug: "videogames",
       },
       {
         id: "TYLa3I4Sr_Y",
@@ -545,6 +688,8 @@ const imagesData = [
         description: "a pink nintendo ds sitting on top of a white table",
         author: "Denise Jans",
         featured: true,
+        categoryName: "Videojuegos",
+        categorySlug: "videogames",
       },
       {
         id: "Ns_b-hg5pxg",
@@ -552,6 +697,8 @@ const imagesData = [
         description: "black and silver dvd player",
         author: "Joshua Doherty",
         featured: false,
+        categoryName: "Videojuegos",
+        categorySlug: "videogames",
       },
       {
         id: "JdSBxDTTJGQ",
@@ -559,6 +706,8 @@ const imagesData = [
         description: "a close-up of a toy",
         author: "Brandon Schmidt",
         featured: false,
+        categoryName: "Videojuegos",
+        categorySlug: "videogames",
       },
       {
         id: "a-WcGbn2Ln0",
@@ -566,6 +715,8 @@ const imagesData = [
         description: "a remote control sitting on top of a table",
         author: "Zoe Wood",
         featured: false,
+        categoryName: "Videojuegos",
+        categorySlug: "videogames",
       },
     ],
   },
