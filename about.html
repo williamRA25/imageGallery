@@ -10,9 +10,10 @@
       integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="./assets/styles/styles.css" />
   </head>
   <body>
-     <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="./index.html">Primer proyecto</a>
         <button
@@ -29,21 +30,69 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+              <a class="nav-link active" aria-current="page" href="./index.html"
+                >Inicio</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="./gallery.html">Galería</a>
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="./gallery.html"
+                >Galería</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="./about.html">Sobre nosotros</a>
+              <a class="nav-link active" aria-current="page" href="./about.html"
+                >Sobre nosotros</a
+              >
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <h1 class="text-primary">Sobre nosotros</h1>
+    <header class="bg-primary text-white text-center py-4">
+      <h1>Sobre Nosotros</h1>
+      <p>Conoce a los autores y contáctanos</p>
+    </header>
 
+    <section class="container my-5">
+    <div class="row text-center justify-content-center">
+      <div class="col-md-4">
+        <img src="./assets/img/william.png" class="rounded-circle mb-3 author-img" alt="Autor 1" width="80" height="80">
+        <h5>William Rodríguez</h5>
+        <p>Desarrollador web y apasionado por los videojuegos retro. Fundador del proyecto.</p>
+      </div>
+  </section>
 
+  <!-- Formulario de contacto -->
+  <section class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Contáctanos</h2>
+      <form>
+        <div class="mb-3">
+          <label for="nombre" class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="nombre" placeholder="Tu nombre">
+        </div>
+        <div class="mb-3">
+          <label for="correo" class="form-label">Correo electrónico</label>
+          <input type="email" class="form-control" id="correo" placeholder="nombre@ejemplo.com">
+        </div>
+        <div class="mb-3">
+          <label for="mensaje" class="form-label">Mensaje</label>
+          <textarea class="form-control" id="mensaje" rows="4" placeholder="Escribe tu mensaje..."></textarea>
+        </div>
+        <div class="text-center">
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- Pie de página -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p class="mb-0">&copy; 2025 Proyecto Web. Todos los derechos reservados.</p>
+  </footer>
 
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
@@ -55,5 +104,9 @@
       integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK"
       crossorigin="anonymous"
     ></script>
+
+    <script src="./assets/js/imagesData.js"></script>
+    <script src="./assets/js/utilities/imgCard.js"></script>
+    <script src="./assets/js/main.js"></script>
   </body>
 </html>
