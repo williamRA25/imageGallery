@@ -18,28 +18,6 @@ function getFeaturedimages(imagesData) {
   return featuredImages;
 }
 
-function renderImageCard(image) {
-  return `
-    <div class="col-6 col-md-4 col-lg-3 mb-3">
-      <div class="card" h-100>
-        <img src="${image.url}" class="card-img-top image-card" alt="${image.description}">
-        <div class="card-body">
-         <p class="card-text text-muted"> <b>Autor</b>: ${image.author}</p>
-        </div>
-      </div>
-    </div>
-  `;
-}
-
-function renderPreviwImages(images) {
-  let previewHtmlImages = ""
-  for (let index = 0; index < images.length; index++) {
-    const image = images[index];
-    previewHtmlImages += renderImageCard(image)
-  }
-  return previewHtmlImages
-}
-
 const featuredImages = getFeaturedimages(imagesData);
 const featuredList = document.getElementById("featured-list");
 for (let index = 0; index < featuredImages.length; index++) {
@@ -51,7 +29,7 @@ const categoriesContainer = document.getElementById("categories");
 for (let index = 0; index < imagesData.length; index++) {
   const imageCategory = imagesData[index];
   const previewImages = imageCategory.images.slice(0, 4)
-  const previewHtmlImages = renderPreviwImages(previewImages)
+  const previewHtmlImages = renderCardImages(previewImages)
   categoriesContainer.innerHTML += `
   <div class="mb-5">
     <h3 class="mb-3 tex-capitalize">${imageCategory.category}</h3>
@@ -61,7 +39,7 @@ for (let index = 0; index < imagesData.length; index++) {
     </div>
      <div class="row">${previewHtmlImages}</div>
     <div class="text-end">
-    <a class="btn btn-outlined-primary" href="">Ver más</a>
+    <a class="btn btn-outlined-primary" href="gallery.html?category=${imageCategory.slug}">Ver más</a>
     </div>
   </div>
   `;
