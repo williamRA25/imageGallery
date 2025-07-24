@@ -17,4 +17,6 @@
   }
   author-img {
     object-fit: cover;
+    object-fit: cover;
+    width: initial;
   }
