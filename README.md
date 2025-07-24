@@ -4,7 +4,7 @@ Este proyecto final fue desarrollado como parte del módulo de **Fundamentos de 
 
 ## Descripción General
 
-La aplicación es una **galería web** que permite al usuario navegar por imágenes destacadas, filtrarlas por categoría, ver detalles ampliados y contactar a los autores mediante un formulario. Todo esto en un entorno atractivo, responsivo y funcional.
+La aplicación es una **galería web** que permite al usuario visualisar diferentes tipos de imagenes, permitiendo realisar filtros por categorias, por autor y tambien realizar busquedas atravez de los metadatos de las imagenes como descripcion, autor y categorias.  
 
 ## Tecnologías Utilizadas
 
@@ -17,20 +17,18 @@ La aplicación es una **galería web** que permite al usuario navegar por imáge
 ## Estructura de la Aplicación
 
 - `index.html`: Página principal con destacados y categorías.
-- `galeria.html`: Galería de imágenes con miniaturas y filtros.
-- `detalle.html`: Vista detallada de cada imagen.
-- `sobre-nosotros.html`: Información de los autores + formulario de contacto.
-- `styles.css`: Estilos personalizados.
-- `script.js`: Funciones JS (filtros, vista detallada, validaciones).
-- `assets/`: Carpeta con imágenes y otros recursos.
+- `gallery.html`: Galería de imágenes con miniaturas y filtros.
+- `imageDetail.html`: Vista detallada de cada imagen.
+- `about.html`: Información de los autores + formulario de contacto.
+- `assets/styles`: Estilos personalizados.
+- `assets/js`: Código JS para realizar el renderizado de forma dinámica, realizar los filtros.
 
 ## Funcionalidades Clave
 
-- Filtrado dinámico de imágenes por categoría.
-- Visualización ampliada con descripción y autor.
-- Validación del formulario de contacto con JavaScript.
+- Filtrado dinámico de imágenes por categoría y por autor.
+- Busqueda por termino.
+- Vista detallada de la imagen.
 - Interfaz completamente responsiva con Bootstrap.
-- Navegación clara y experiencia amigable para el usuario.
 
 ## Objetivos del Proyecto
 
@@ -47,7 +45,7 @@ La aplicación es una **galería web** que permite al usuario navegar por imáge
 
 El proyecto ha sido publicado con **GitHub Pages** y puede ser visitado en:
 
-[Ver Proyecto en Línea](https://<TU_USUARIO>.github.io/<NOMBRE_DEL_REPOSITORIO>/)
+[Ver Proyecto en Línea](https://williamra25.github.io/imageGallery/index.html)
 
 ---
 
